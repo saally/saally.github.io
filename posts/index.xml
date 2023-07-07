@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 万物逆旅</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://www.sallyliu.net/posts/</link>
     <description>Recent content in Posts on 万物逆旅</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sallyliu.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bucket List</title>
-      <link>http://localhost:1313/posts/bucket-list/</link>
+      <link>https://www.sallyliu.net/posts/bucket-list/</link>
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/bucket-list/</guid>
+      <guid>https://www.sallyliu.net/posts/bucket-list/</guid>
       <description>找到自己喜欢，擅长，有成长空间 与 回报的职业。 拥有 阳光 与 空气感 的房子。 与 配偶，小孩，父母 保持良好的关系。 减少自己的所有物。简单的生活。 学会赚钱，省钱，与投资。目标是能靠 passive income 生活。 学习日语。并考虑晚年定居</description>
     </item>
     
