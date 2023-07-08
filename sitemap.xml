@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.sallyliu.net/tags/blog/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sallyliu.net/posts/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sallyliu.net/tags/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sallyliu.net/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sallyliu.net/posts/build-blog/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.sallyliu.net/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.sallyliu.net/tags/bucket-list/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sallyliu.net/posts/bucket-list/</loc>
-    <lastmod>2023-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sallyliu.net/posts/</loc>
-    <lastmod>2023-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sallyliu.net/tags/</loc>
-    <lastmod>2023-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sallyliu.net/</loc>
-    <lastmod>2023-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.sallyliu.net/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.sallyliu.net/about/</loc>

@@ -8,11 +8,11 @@
 	
 	
 	
-	<title>Tags ｜ 万物逆旅</title>
+	<title>建一个博客需要几个步骤 ｜ 万物逆旅</title>
 	
     
     
-    <meta name="description" content="某人的日常博客" />
+    <meta name="description" content="希望自己能多多使用这个博客。记录自己的生活。 上次搭博客还是2023年初，一晃半年过去了。重新捡起来的时候，竟然一丁丁都想不起来该怎么办了。 这回聪明一点，记录一下过程。万一还要建站就能参考。 主体是用 hugo &#43;" />
     
 
     
@@ -21,8 +21,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://www.sallyliu.net/tags/index.xml" title="万物逆旅" />
-    
     
     <link rel="shortcut icon" href="https://www.sallyliu.net/images/favicon.ico" />
 
@@ -84,40 +82,76 @@
     </div>
 </div>
         <div class="content">
-            <div class="page_tags">
-                <ul>
-                    
-                    
-                    
-                    <li>
-                        <a href="https://www.sallyliu.net/tags/%E7%94%9F%E6%B4%BB">
-                            生活 <span class="terms_count">2</span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="https://www.sallyliu.net/tags/blog">
-                            blog <span class="terms_count">1</span>
-                        </a>
-                    </li>
-                    
-                    
-                    
-                    <li>
-                        <a href="https://www.sallyliu.net/tags/bucket-list">
-                            bucket-list <span class="terms_count">1</span>
-                        </a>
-                    </li>
-                    
-                    
-                </ul>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/build-blog/'>建一个博客需要几个步骤</a></h2>
+                        <span class="date">2023.07.07</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>希望自己能多多使用这个博客。记录自己的生活。</p>
+</blockquote>
+<p>上次搭博客还是2023年初，一晃半年过去了。重新捡起来的时候，竟然一丁丁都想不起来该怎么办了。
+这回聪明一点，记录一下过程。万一还要建站就能参考。</p>
+<p>主体是用 hugo + github page 搭起来的。</p>
+<h2 id="step-1-选择一个喜欢的模版">Step 1. 选择一个喜欢的模版</h2>
+<p>我用的是<a href="https://github.com/varkai/hugo-theme-zozo">zozo</a>。看起来很简单清爽。</p>
+<h2 id="step-2-setup-github">Step 2. Setup Github</h2>
+<p>参考这篇<a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">blog</a> 里<strong>自动发布</strong> 那一截。特别好用。
+能够做到push 代码到github，博客就自动发布了。</p>
+<h2 id="step-3-购买域名--dns-setup">Step 3. 购买域名 + DNS Setup</h2>
+<p>还是上篇<a href="https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/">博客</a>。
+我这个域名是39块钱 3年，四舍五入不要钱哈哈。</p>
+<h2 id="step-4-写一篇博客">Step 4. 写一篇博客</h2>
+<p>随便写写。方便修改样式。</p>
+<h2 id="step-5-留言系统-twikoo--railway">Step 5. 留言系统 Twikoo + Railway</h2>
+<p>参考的是友邻这篇<a href="https://thirdshire.com/post/twikoo-tutorial/">blog：在静态博客里添加Twikoo评论系统，并配置邮箱和TG通知</a>. Railway现在要收费了，每个月五块钱。</p>
+<h2 id="step-6-根据自己的喜好进行修改">Step 6. 根据自己的喜好进行修改</h2>
+<p>主要是修改了 留言部分 的<a href="https://github.com/saally/blog/blob/master/themes/hugo-theme-zozo/static/css/twikoo.css">css</a>，与博客theme一致。删去了很多不必要的元素。
+同时默认comment部分为隐藏，不影响阅读。</p>
+<hr>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://www.sallyliu.net/tags/blog/">blog</a>
+                                    
+                                    <a href="https://www.sallyliu.net/tags/%E7%94%9F%E6%B4%BB/">生活</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <details class="doc_comments">
+    <summary>comment</summary>
+    <div id="tcomment"></div>
+
+    <link rel="stylesheet" href="https://www.sallyliu.net/css/twikoo.css" />
+    <script src="https://cdn.staticfile.org/twikoo/1.6.16/twikoo.all.min.js"></script>
+
+    <script>
+twikoo.init({
+  envId: 'https://twikoo-zeabur-production-459f.up.railway.app',
+  el: '#tcomment'
+})
+</script>
+</details>
+
+
+
+                
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         <a href="https://varkai.com">Designed by VarKai,</a>
